@@ -3,13 +3,13 @@
     width: 40px;
     margin: 2px;
     border: 2px solid black;
-    background-color: red;
+    background-color: white;
 }
 
 .hori{
     display: flex;
 }
 
-.vert:hover{
-    background-color: pink;
+.hold{
+    background-color: black;
 }
