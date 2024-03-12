@@ -8,7 +8,10 @@ for (let x = 0; x < 16; x++) {
     rows.classList.add("vert");
     colums.appendChild(rows);
     rows.addEventListener("mouseover", () => {
-        rows.classList.add("hold");
-      });
+      rows.classList.add("hold");
+    });
+    rows.addEventListener("mousedown", () => {
+      rows.classList.remove("hold");
+    });
   }
 }
